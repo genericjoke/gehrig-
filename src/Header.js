@@ -17,6 +17,10 @@ function Header() {
                     <Button className="nav-btn">OUR THOUGHTS ON GEHRIG!!!</Button>
                 </NavLink>
                 <Button.Or />
+                <NavLink to="/">
+                    <Button className="nav-btn">HIS SICK DRIP</Button>
+                </NavLink>
+                <Button.Or />
                 <NavLink to="/feedback">
                     <Button className="nav-btn">FEEDBACK ON GEHRIG</Button>
                 </NavLink>
