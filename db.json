@@ -13,7 +13,7 @@
     {
       "id": 3,
       "name": "Keino Chichester",
-      "opinion": "Rockstar! Thank you for your patience and persistence while helping me troubleshoot. I appreciate you adding a philosophical perspective to coding, it helps with understanding the fundamentals in a way that wont allow me "
+      "opinion": "Rockstar! Thank you for your patience and persistence while helping me troubleshoot. I appreciate you adding a philosophical perspective to coding, it helps with understanding the fundamentals in a way that wont allow me to forget. I can’t promise I’ll stop trying to build a Tesla with a screwdriver, but I will promise that I’ll also pick up a hammer for good measure :D. Stay in Touch!"
     },
     {
       "id": 4,
@@ -98,7 +98,7 @@
     {
       "id": 20,
       "name": "Forrest Jones",
-      "opinion": "So Forrest...this is how you share your screen with the Zoom program...get it together man"
+      "opinion": "So Forrest...this is how you share your screen with the Zoom program...get it together man! Thank you for being amazing my friend!"
     },
     {
       "id": 21,
@@ -114,14 +114,18 @@
       "id": 22,
       "name": "Andrea Jin",
       "opinion": "Hey Gehrig! Thank you so much for being our TC. I said this before, but your help with our phase 2 project was very much appreciated. Hope you have a wonderful experience with your next journey!"
+    },{
+      "id": 23,
+      "name": "Duane Grell",
+      "opinion": "Thanks so much for all of your help these past few weeks. Please know that your presence was appreciated by all. You have been so generous with your time and help, and the patience you have with us knows no bounds. Knowing that you were around to help with my reviews and my terrible coding has been a comforting feeling. You will be missed. Wishing you all the best!"
     },
     {
-      "id": 23,
+      "id": 24,
       "name": "Eleanor Kelman",
       "opinion": "Thank you for being so supportive and teaching me just as much as you taught the (other?) students! You've been so validating and helpful as well as just a blast to talk to and I'm glad I got to know you these past few weeks!"
     },
     {
-      "id": 24,
+      "id": 25,
       "name": "Tyler Taylor",
       "opinion": "G, you are an absolute rockstar. You’re consistently a bright spot in the students’ experience here, not to mention my own. We may complain about our jobs at times, but at the end of the day I’m leaving with someone I’d consider a true friend. Keep being yourself, as I know you will, and you’ll end up in the right spot. That company will be lucky to have you."
     }
