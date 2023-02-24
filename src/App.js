@@ -18,7 +18,7 @@ function App() {
   //http://username.github.io/reponame/db.json
   //http://localhost:3001/opinions
   useEffect(() => {
-    fetch('http://genericjoke.github.io/gehrig-/db.json/opinions')
+    fetch('http://localhost:3001/opinions')
         .then(r => r.json())
         .then(answers => {
             console.log(answers)

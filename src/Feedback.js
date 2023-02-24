@@ -8,7 +8,7 @@ function Feedback () {
     //http://genericjoke.github.io/gehrig-/db.json/feedbackPoll
     //http://localhost:3001/feedbackPoll
     useEffect(() => {
-        fetch('http://genericjoke.github.io/gehrig-/db.json/feedbackPoll')
+        fetch('http://localhost:3001/feedbackPoll')
             .then(r => r.json())
             .then(answers => {
                 setBar1(answers.yes);
