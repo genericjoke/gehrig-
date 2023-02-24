@@ -1,10 +1,13 @@
 .App {
   text-align: center;
+  background-color: darkslategray;
 }
 
 .App-logo {
   height: 40vmin;
+  border-radius: 30%;
   pointer-events: none;
+  margin-bottom: 5rem;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -37,9 +40,33 @@
   }
 }
 
+#root > div > div:nth-child(1) {
+  text-align: center;
+}
+
 .nav-btn {
   max-height: 100px;
   width: max-content;
-  margin-left: 360px;
+}
+
+.poll {
+  width: 1127px;
+  text-align: center;
+}
+
+.option {
+  display: flex;
+}
+
+.option > button {
+  min-width: 75px;
+}
+
+#bar {
+  background-color: rgb(255, 0, 0);
+  border: 2px rgba(255, 0, 0, 0.5) solid;
+  border-radius: 5px;
+  max-width: 1127px;
+  transition: width .5s;
 }
 

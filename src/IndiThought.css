@@ -1,0 +1,107 @@
+.page-container {
+    width: 100%;
+    Height: 100%;
+    /* align-content: center; */
+    padding: 1rem;
+}
+
+.card-container {
+    position: relative;
+    display: inline-block;
+    width: 15rem;
+    height: 24rem;
+    border-bottom-left-radius: 3rem;
+    border-top-right-radius: 3rem;
+    margin: 3rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(22, 28, 28, 0.404);
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 300% 300%;
+    animation: gradient 15s ease infinite;
+}
+
+#card-content {
+    position: relative;
+    display: grid;
+    margin: 10px;
+    text-align: center;
+    al: center;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.like-button {
+    cursor: pointer;
+}
+
+.image-div {
+    min-height: 17rem;
+}
+
+.image {
+    border-top-right-radius: 3rem;
+    object-fit: fill;
+}
+
+.like-button {
+    margin-bottom: .75rem;
+}
+
+/* .card-inner {
+    padding: 2rem;
+} */
+
+.normal-card,
+.favorite-card {
+    margin: 2rem;
+    opacity: 80%;
+    transition-duration: .75s;
+    transition-duration: border-color 2s;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08),
+        0 2px 2px rgba(0, 0, 0, 0.12),
+        0 4px 4px rgba(0, 0, 0, 0.16),
+        0 8px 8px rgba(0, 0, 0, 0.20);
+
+    /* transition: ease-out 1s; */
+}
+
+.normal-card:hover,
+.favorite-card:hover {
+    opacity: 100%;
+    transform: scale(1.03);
+    cursor: pointer;
+    border: solid .01rem rgba(245, 245, 245, 0.319);
+}
+
+
+h4 {
+    margin: 0
+}
+
+li {
+    list-style: none;
+}
+
+.favorite-card {
+    border-style: solid;
+    border-width: .005rem;
+    border-color: rgba(218, 165, 32, 0.896);
+    box-shadow: 0px 0px 4px rgba(218, 165, 32, 0.919);
+    box-shadow: 0px 0px 8px rgba(218, 165, 32, 0.793);
+    box-shadow: 0px 0px 16px rgba(218, 165, 32, 0.545);
+    opacity: 100%;
+}

@@ -17,7 +17,7 @@ function FrontPage() {
             >
                 Click here to learn Chess from Gehrig!
             </a>
-             </header>
+            </header>
         </div>
     )
 }

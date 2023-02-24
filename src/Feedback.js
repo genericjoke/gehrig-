@@ -5,11 +5,12 @@ function Feedback () {
     const [bar1, setBar1] = useState(0);
     const [bar2, setBar2] = useState(0);
 
+    //http://genericjoke.github.io/gehrig-/db.json/feedbackPoll
+    //http://localhost:3001/feedbackPoll
     useEffect(() => {
-        fetch('http://localhost:3001/feedbackPoll')
+        fetch('http://genericjoke.github.io/gehrig-/db.json/feedbackPoll')
             .then(r => r.json())
             .then(answers => {
-                console.log(answers);
                 setBar1(answers.yes);
                 setBar2(answers.no);
             });
@@ -22,10 +23,12 @@ function Feedback () {
     const width2 = noPercentage * 1127;
     
     const bar1Style = {
-        width: `${width1}px`
+        width: `${width1}px`,
+        // color:"red"
     }
     const bar2Style = {
-        width: `${width2}px`
+        width: `${width2}px`,
+        // color: "red"
     }
 
     function handleYes() {
@@ -56,7 +59,7 @@ function Feedback () {
         <>
            <div className="poll">
             <br />
-            <h2>Is This the Best Phase 2 Project Ever?</h2>
+            <h2>Is Gehrig the BEST TC EVER!!?</h2>
             <br />
                 <div className="option">
                     <Button content='Vote Yes' onClick={handleYes} />
@@ -66,7 +69,7 @@ function Feedback () {
                 </div>
                 <br />
                 <div className="option">
-                    <Button content='Vote No' onClick={handleNo} />
+                    <Button content='Vote Yes' onClick={handleNo} />
                     <div id="bar" style={bar2Style}>
                         <p style={{color: 'white'}}><strong><em>{Math.floor(noPercentage*100)}%</em></strong></p>
                     </div>

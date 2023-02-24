@@ -6,12 +6,6 @@ import { Button } from "semantic-ui-react";
 function Header() {
     return (
         <div>
-            {/* <Button.Group id='socials'>
-                <a href='https://www.youtube.com/ufc' target='_blank' rel="noreferrer"><Button circular color='youtube' icon='youtube' /></a>
-                <a href='https://facebook.com/ufc' target='_blank' rel="noreferrer"><Button circular color='facebook' icon='facebook' /></a>
-                <a href='https://twitter.com/ufc' target='_blank' rel="noreferrer"><Button circular color='twitter' icon='twitter' /></a>
-                <a href='https://www.instagram.com/ufc/' target='_blank' rel="noreferrer"><Button circular color='instagram' icon='instagram' /></a>
-            </Button.Group> */}
             <Button.Group>
                 <NavLink className="nav-btn" to="/thoughts">
                     <Button className="nav-btn">OUR THOUGHTS ON GEHRIG!!!</Button>
